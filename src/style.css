@@ -4,8 +4,9 @@ body {
 }
 
 #mydiv {
+  padding-top: 20px;
   background-color: white;
   border-radius: 4px;
   width: 300px;
-  height: 600px;
+  height: 500px;
 }
