@@ -4,7 +4,7 @@ body {
 }
 
 #mydiv {
-  padding-top: 100px;
+  margin-top: 100px;
   background-color: white;
   border-radius: 4px;
   width: 300px;
@@ -24,6 +24,8 @@ body {
 #uppfig #downfig {
   color: black;
   font-size: x-large;
+  height: 10px;
+  width: 10px;
 }
 
 #uppfig {
