@@ -12,8 +12,9 @@ body {
 }
 
 #letter {
+  display: flex;
   align-items: center;
-  align-content: larger;
-  font-size: ;
+  justify-content: center;
+  font-size: large;
   font-weight: bolder;
 }
