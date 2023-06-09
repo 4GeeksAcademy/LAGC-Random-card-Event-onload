@@ -1,4 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-color: ;
+  background-color: green;
+}
+
+.mydiv {
+  background-color: white;
+  border-radius: 4px;
 }
