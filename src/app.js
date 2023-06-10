@@ -39,7 +39,9 @@ window.onload = function() {
   //Searching the simbols to be replaced and print them on the page
   let letter = document.querySelector("#letter");
   letter.innerHTML = numbers;
-  if ((suite = "♥" || suite = "♦")) {
-    const color = "red";
+
+  if (suite == "♥" || suite == "♦") {
+    downfig.style.color = "red";
+    uppfig.style.color = "red";
   }
 };
