@@ -40,5 +40,6 @@ window.onload = function() {
   let letter = document.querySelector("#letter");
   letter.innerHTML = numbers;
   if ((suite = "♥" || suite = "♦")) {
+    const color = "red";
   }
 };

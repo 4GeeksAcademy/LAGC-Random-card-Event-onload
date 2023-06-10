@@ -3,40 +3,46 @@ body {
   background-color: green;
 }
 
-#mydiv {
+.mydiv {
   margin-top: 100px;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 20px;
   width: 300px;
-  height: 500px;
-  justify-content: center;
-  align-items: center;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#letter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.letter {
   font-size: 100px;
   font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 50%;
 }
 
-#uppfig,
-#downfig {
+.uppfig,
+.downfig {
   display: flex;
   color: black;
   font-size: 75px;
-  position: absolute;
 }
 
-#uppfig {
-  margin-top: 10px;
-  justify-content: flex-start;
-  align-items: flex-start;
+.uppfig {
+  margin-left: 10px;
+  top: 0;
+  left: 0;
+  justify-content: start;
 }
 
-#downfig {
-  margin-bottom: 10px;
-  justify-content: last baseline;
-  align-items: first baseline;
+.downfig {
+  margin-right: 10px;
+  bottom: 0;
+  justify-content: end;
+  align-items: end;
+}
+
+.rotate {
+  transform: rotate(180);
 }
